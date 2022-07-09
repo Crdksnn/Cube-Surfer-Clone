@@ -21,12 +21,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            
-        }
-
+        
         Move();
+
     }
 
     private void Move()

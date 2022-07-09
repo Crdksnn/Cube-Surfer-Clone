@@ -130,7 +130,7 @@ public class CollectManager : MonoBehaviour
         playerMovement.enabled = false;
         animator.SetBool("isDancing", true);
         greatText.SetActive(true);
-
+        
         foreach (GameObject particleEffect in particleEffects)
         {
             particleEffect.GetComponent<ParticleSystem>().Play();
